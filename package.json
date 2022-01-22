@@ -1,0 +1,26 @@
+{
+  "name": "create-rivas-node",
+  "version": "1.0.6",
+  "description": "Creating project nodejs",
+  "main": "index.js",
+  "bin": {
+    "create-rivas-node": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivaslive/create_rivas_node.git"
+  },
+  "author": "rivaslive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rivaslive/create_rivas_node/issues"
+  },
+  "homepage": "https://github.com/rivaslive/create_rivas_node#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
