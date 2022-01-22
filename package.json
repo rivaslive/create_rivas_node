@@ -1,6 +1,6 @@
 {
   "name": "create-rivas-node",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Creating project nodejs",
   "main": "index.js",
   "bin": {

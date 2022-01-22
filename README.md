@@ -1,3 +1,14 @@
-<h1><b>CREATE RIVAS NODE</b></h1>
-<p>My personal npx command for create nodejs package</p>
-<p>Created with love <3</p>
+# CREATE RIVAS NODE
+
+My personal npx command for create nodejs package
+
+## How to use?
+
+```javascript
+npx create-rivas-node
+```
+
+*After insert project name and choose template to create*
+
+
+Created with love ❤️
