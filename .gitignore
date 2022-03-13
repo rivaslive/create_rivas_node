@@ -4,3 +4,4 @@ node_modules/*
 .idea
 .git
 package-lock.json
+yarn.lock
