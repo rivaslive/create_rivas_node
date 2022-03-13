@@ -39,7 +39,7 @@ const createProject = ({ appName, template }) => {
     console.log('🚀 Created project successfully');
     console.log(`Access with cd ${appName}`);
     return console.log(
-      `execute ${packageManager} ${packageManager !== 'yarn' ? 'run' : ''} dev`
+      `execute ${packageManager}${packageManager !== 'yarn' ? 'run' : ''} dev`
     );
   } catch (error) {
     return console.error(error);
