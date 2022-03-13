@@ -2,7 +2,7 @@
 'use strict';
 
 const inquirer = require('inquirer');
-const { spawnSync, spawn } = require('child_process');
+const { spawnSync } = require('child_process');
 const { questions, repositoriesUrl } = require('./config');
 
 const createProject = ({ appName, template }) => {
