@@ -1,6 +1,6 @@
 {
   "name": "create-rivas-node",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "Creating project nodejs",
   "main": "index.js",
   "bin": {
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/rivaslive/create_rivas_node#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
   }
 }
