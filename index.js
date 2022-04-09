@@ -6,6 +6,14 @@ const { spawnSync } = require('child_process');
 const { questions, repositoriesUrl } = require('./config');
 
 const createProject = ({ appName, template }) => {
+  const verifyGitInstall = spawnSync('git', ['--version']);
+
+  if (verifyGitInstall.error) {
+    return console.error(
+      'Git is not installed. Please install git and try again.'
+    );
+  }
+
   const cloneRepo = spawnSync('git', [
     'clone',
     repositoriesUrl[template],
@@ -13,7 +21,7 @@ const createProject = ({ appName, template }) => {
   ]);
 
   if (cloneRepo.error) {
-    return console.log(`${child.stderr}`);
+    return console.log(`${cloneRepo.stderr}`);
   }
 
   try {
