@@ -1,8 +1,9 @@
 {
   "name": "create-rivas-node",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Creating project nodejs",
   "main": "index.js",
+  "keywords": ["nodejs", "node", "create", "project", "rivas", "typescript", "node-cli"],
   "bin": {
     "create-rivas-node": "index.js"
   },
