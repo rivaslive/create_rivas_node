@@ -2,6 +2,11 @@
 
 My personal npx command for create nodejs package
 
+## Requirements
+Before use this package you need to install the following packages:
+
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 ## How to use?
 
 ```javascript
